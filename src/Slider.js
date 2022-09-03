@@ -25,8 +25,6 @@ export default function ContinuousSlider() {
         <>
             <Box sx={{ mt: 5, }} >
                 <Typography>360 car image view</Typography>
-                <Typography>{value}</Typography>
-                <Typography>{number}</Typography>
                 <img src={require(`./car/${number}.jpg`)} width="600" height='400' />
                 <Stack spacing={2} direction="row" sx={{ mb: 1 }} alignItems="center">
                     {/* <VolumeDown /> */}
